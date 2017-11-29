@@ -5,7 +5,8 @@ package Controle;
  */
 public class Poltrona {
 
-    int numeroPoltrona ;
+    int numeroPoltrona;
+    
     public Poltrona(int numeroPoltrona ){
 
         this.numeroPoltrona = numeroPoltrona;

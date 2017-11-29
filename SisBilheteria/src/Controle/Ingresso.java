@@ -5,6 +5,6 @@ package Controle;
  */
 public abstract class Ingresso {
     public abstract float getValor();
-    public abstract int getPoltrona();
     public abstract String getTipo();
+	public abstract void setValor(float valor);
 }

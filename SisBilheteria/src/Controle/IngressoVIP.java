@@ -4,21 +4,22 @@ public class IngressoVIP extends Ingresso {
 	
 	float valor = 31.9f;
 	Filme filme;
-	Poltrona poltrona;
 
 
-	public IngressoVIP(Filme filme, Poltrona poltrona){
+
+	public IngressoVIP(Filme filme){
 		this.filme = filme;
-		this.poltrona = poltrona;
 	}
 	@Override
 	public float getValor() {
 		return valor;
 	}
+	
 	@Override
-	public int getPoltrona() {
-		return poltrona.getNumero();
+	public void setValor(float valor) {
+		this.valor = valor;
 	}
+	
 	@Override
 	public String getTipo(){
 		return "VIP";

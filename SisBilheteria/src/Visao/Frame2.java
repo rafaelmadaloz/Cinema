@@ -47,23 +47,45 @@ public class Frame2 extends JFrame{
 		textoEscolha.setEditable(false);
 		add(textoEscolha);
 		
-		ImageIcon imgFilme1 = new ImageIcon("thor.png");
 		
-		
-		
-		botaoFilme1 = new JButton(imgFilme1);
-        botaoFilme2 = new JButton("Filme 2");
-        botaoFilme3 = new JButton("Filme 3");
-        botaoFilme4 = new JButton("Filme 4");
-        botaoFilme5 = new JButton("Filme 5");
-        botaoFilme6 = new JButton("Filme 6");
-        botaoFilme7 = new JButton("Filme 7");
-        botaoFilme8 = new JButton("Filme 8");
-        botaoFilme9 = new JButton("Filme 9");
-        botaoFilme10 = new JButton("Filme 10");
-        
-       
+		ImageIcon imgFilme1 = new ImageIcon(getClass().getResource("StarWars.jpg"));
+        ImageIcon imgFilme2 = new ImageIcon(getClass().getResource("JusticeLeague.jpg"));
+        ImageIcon imgFilme3 = new ImageIcon(getClass().getResource("Peca.jpg"));
+		ImageIcon imgFilme4 = new ImageIcon(getClass().getResource("thor.jpg"));
+        ImageIcon imgFilme5 = new ImageIcon(getClass().getResource("titanic.jpg"));
+        ImageIcon imgFilme6 = new ImageIcon(getClass().getResource("GetOut.jpg"));
+        ImageIcon imgFilme7 = new ImageIcon(getClass().getResource("Fifty.jpg"));
 
+		botaoFilme1 = new JButton(imgFilme1);
+		botaoFilme1.setIcon(imgFilme1);
+
+        botaoFilme2 = new JButton(imgFilme1);
+        botaoFilme2.setIcon(imgFilme1);
+
+        botaoFilme3 = new JButton(imgFilme2);
+        botaoFilme3.setIcon(imgFilme2);
+
+        botaoFilme4 = new JButton(imgFilme2);
+        botaoFilme4.setIcon(imgFilme2);
+
+        botaoFilme5 = new JButton(imgFilme3);
+        botaoFilme5.setIcon(imgFilme3);
+
+        botaoFilme6 = new JButton(imgFilme4);
+        botaoFilme6.setIcon(imgFilme4);
+
+        botaoFilme7 = new JButton(imgFilme4);
+        botaoFilme7.setIcon(imgFilme4);
+
+        botaoFilme8 = new JButton(imgFilme5);
+        botaoFilme8.setIcon(imgFilme5);
+
+        botaoFilme9 = new JButton(imgFilme6);
+        botaoFilme8.setIcon(imgFilme6);
+
+        botaoFilme10 = new JButton(imgFilme7);
+        botaoFilme10.setIcon(imgFilme7);
+		
 
 
         grid_Layout = new GridLayout(2,5,5,5);

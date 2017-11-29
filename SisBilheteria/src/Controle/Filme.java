@@ -52,8 +52,8 @@ public class Filme {
     public boolean comprarPoltrona(int numeroPoltrona) {
         int capacidade = poltronas.length;
         boolean comprou = false;
-        if (poltronas[numeroPoltrona - 1] == 0 && numeroPoltrona <= capacidade){
-            poltronas[numeroPoltrona - 1] = 1;
+        if (poltronas[numeroPoltrona] == 0 && numeroPoltrona <= capacidade){
+            poltronas[numeroPoltrona] = 1;
             comprou = true;
             poltronasDisponiveis();
         }

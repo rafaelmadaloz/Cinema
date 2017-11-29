@@ -1,21 +1,23 @@
 package Controle;
 
 public class IngressoNormal extends Ingresso {
+	
 	Filme filme;
-	Poltrona poltrona;
+	
 	float valor = 26.90f;
 
-	public IngressoNormal(Filme filme, Poltrona poltrona){
+	public IngressoNormal(Filme filme){
 		this.filme = filme;
-		this.poltrona = poltrona;
+		
 	}
 	@Override
 	public float getValor() {
 		return valor;
 	}
+	
 	@Override
-	public int getPoltrona() {
-		return poltrona.getNumero();
+	public void setValor(float valor) {
+		this.valor = valor;
 	}
 	@Override
 	public String getTipo(){
